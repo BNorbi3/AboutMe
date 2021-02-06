@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/orion.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+.pcard {  
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: rgba(230, 242, 255, 0.5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.content {  
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.myimage {
+    margin-top: -60px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Times New Roman", sans-serif;
+}
+
+#job {
+  font-size: 1.5rem;
+  font-family: Calibri, cursive;
+  font-style: italic;
+  font-weight: 100;
+}
+
+span {
+  color: grey;
+  font-size: 1rem;
+}
+
+#location {
+  font-size: 1.3rem;
+  font-family: Calibri, cursive;
+  font-weight: 500;
+}
+
+.about {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+#contact {
+  color: slategrey;
+  padding-bottom: 15px;
+}
+
+a {
+  color: lightslategray;
+  font-size: 150%;
+}
+
+a:hover {  
+  transition: all 0.5s ease-in-out;
+  color: plum;
+  }
+
+i:hover {
+  transform:scale(1.5,1.5);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/*@media only screen and (min-width: 480px) and (max-width: 768px){
+    
+}*/
